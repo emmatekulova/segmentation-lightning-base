@@ -1,12 +1,10 @@
 import json
 import logging
 import os
-
 import pathlib
 from collections.abc import Callable
 from dataclasses import dataclass
 
-import pathlib
 import lightning as L
 import optuna
 import torch
@@ -18,7 +16,7 @@ from optuna.samplers import BaseSampler
 
 from seglight.data import TrainTestDataModule
 
-logger = logging.getLogger(__name__)    
+logger = logging.getLogger(__name__)
 
 
 @dataclass
