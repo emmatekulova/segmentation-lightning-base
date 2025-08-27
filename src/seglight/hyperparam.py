@@ -137,7 +137,6 @@ class OptunaLightningTuner:
             pruning_callback,
             checkpoint_callback,
         ]
-        e = 3
 
         return model, trainer_callbacks
 
